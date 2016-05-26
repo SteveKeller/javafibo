@@ -1,4 +1,4 @@
 FROM java:7
-COPY hallo-welt.java .
-RUN javac hallo-welt.java
+COPY MainClass.java .
+RUN javac MainClass.java
 CMD ["java", "MainClass"]
